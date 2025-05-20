@@ -53,6 +53,7 @@ echo -e "\033[1m\033[33m
 echo -e  "     \e[1m\e[32m▂▃▄▅▆▇▓▒░ \033[1mCoded By \e[33m『⛥ 𝗠𝗗 𝗧𝗘𝗖𝗛 𝗛𝗔𝗖𝗞𝗘𝗥 ⛥』\e[1m\e[32m░▒▓▇▆▅▄▃▂"
 cd $HOME
 cd Termux-Login-UI
+cd  NETWORK
 python network.py
 echo -e "   \033[1m\033[33m]\033[31m─────────────────────────────────────\033[33m["
 echo 
