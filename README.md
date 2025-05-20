@@ -1,4 +1,4 @@
-# Termux-LoginX
+# Termux-Login
 ![Termux-LoginX preview](Termux-LoginX.jpg)
 
 ## introduction 『⛥ 𝗠𝗗 𝗧𝗘𝗖𝗛 𝗛𝗔𝗖𝗞𝗘𝗥 ⛥』
