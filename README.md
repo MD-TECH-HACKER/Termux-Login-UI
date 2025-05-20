@@ -9,7 +9,7 @@ Termux-LoginX is a tool used to secure our termux from irresponsible people, it 
 $ pkg update -y && pkg upgrade -y
 $ apt update -y && apt upgrade -y
 $ pkg install git
-$ git clone 
+$ git clone https://github.com/MD-TECH-HACKER/Termux-Login-UI.git
 $ cd Termux-LoginX
 $ chmod +x setup.sh login.sh
 $ bash setup.sh
