@@ -6,23 +6,26 @@ Termux-LoginX is a tool used to secure our termux from irresponsible people, it 
 
 ## Instalations
 ```
+# Step 1: Update and upgrade packages
 pkg update -y && pkg upgrade -y
 apt update -y && apt upgrade -y
+
+# Step 2: Install git
 pkg install git -y
 
-# Clone your GitHub repo (assuming it exists)
+# Step 3: Clone your GitHub repo
 git clone https://github.com/MD-TECH-HACKER/Termux-Login-UI.git
 
-# Change into the correct directory
+# Step 4: Enter the correct cloned directory
 cd Termux-Login-UI
 
-# Give execution permission
+# Step 5: Make setup and login scripts executable
 chmod +x setup.sh login.sh
 
-# Run the setup
+# Step 6: Run the setup script
 bash setup.sh
 
-# Start login manually if needed
+# Step 7: Run login (only if setup doesn’t auto-start it)
 bash login.sh
 
 ```
