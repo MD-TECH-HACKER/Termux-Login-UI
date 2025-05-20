@@ -1,3 +1,11 @@
-# Obfuscated by Mr.X
-import base64
-exec(base64.b64decode('CgoKIyEvdXNyL2Vudi9weXRob24yCmltcG9ydCByZXF1ZXN0cwoKCnVybCA9ICJodHRwOi8vd3d3Lmdvb2dsZS5jb20iCnRpbWVvdXQgPSA1Lgp0cnk6CiAgICByZXF1ZXN0ID0gcmVxdWVzdHMuIGdldCh1cmwsIHRpbWVvdXQ9dGltZW91dCkKICAgIHByaW50KCIgICAgICAgICAgICAgICAgXDAzM1sxbVwwMzNbNDJtIOKaoVwwMzNbMzFtT25saW5l4pqhIFwwMzNbMG0iKQpleGNlcHQgKHJlcXVlc3RzLiBDb25uZWN0aW9uRXJyb3IsIHJlcXVlc3RzLiBUaW1lb3V0KSBhcyBleGNlcHRpb246CiAgICBwcmludCgiICAgICAgICAgICAgICAgIFwwMzNbMW1cMDMzWzQybSDimqFcMDMzWzMxbU9GRkxJTkXimqEgXDAzM1swbSIpCg==').decode('utf-8'))
+#!/usr/env/python2
+import requests
+
+
+url = "http://www.google.com"
+timeout = 5.
+try:
+    request = requests. get(url, timeout=timeout)
+    print("                \033[1m\033[42m ⚡\033[31mOnline⚡ \033[0m")
+except (requests. ConnectionError, requests. Timeout) as exception:
+    print("                \033[1m\033[42m ⚡\033[31mOFFLINE⚡ \033[0m")
